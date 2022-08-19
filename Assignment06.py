@@ -131,7 +131,7 @@ class IO:
         :return: (string, string) with task and priority
         """
         task = str(input("What is the task? ")).strip()
-        priority = str(input("What is the priority? ")).strip()
+        priority = str(input("What is the task's priority? ")).strip()
         return task, priority
 
     @staticmethod
@@ -140,7 +140,7 @@ class IO:
 
         :return: (string) with task
         """
-        task = str(input("What is the name of the task you wish to remove? ")).strip()
+        task = str(input("What is the name of the task to remove? ")).strip()
         return task
 
 
